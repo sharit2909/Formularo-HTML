@@ -1,0 +1,92 @@
+/*estilos generales*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+}
+    
+/*colores de texto*/
+.text-black{
+    color: rosybrown;
+}
+
+/*colores de fondo*/
+.text-gray{
+    background-image: url(im);
+    background-image: url(https://images.unsplash.com/photo-1503914068268-5413b35b45ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fG1pbmltYWxpc3R8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    /*background-position: la-medida-en-x la-medida-en-y;*/
+    background-position: 30% 20%;
+    background-color: rgb(216, 191, 216);
+}
+
+.bg-white{
+    background-color:silver;
+}
+
+/*contenedor del formulario*/
+.form-container{
+    width: 30%;
+    padding: 4rem;
+    height: 20rem;
+    /*border: <tipo de borde> <medida del borde> <color del borde>; */
+    border:solid 0.1rem white;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*box-shadow:<posicion en y> <posicion en x> <nivel de distorcion>*/ ;
+    box-shadow: -11px 11px 10px rgba(0, 0, 0, 0.534)
+}
+
+/*contenedor de los inputs*/
+.input-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input{
+    border-radius: 00.4rem;
+    border: solid 0.1rem rosybrown;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+
+}
+
+/*contenedor checkbox*/
+.check-container{
+    margin-top:0.7rem;
+}
+
+.check-container input{
+    margin-right: 0.5rem;
+}
+
+/*estilos de boton*/
+.btn-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*estilos de boton*/
+.btn{
+    padding: 0.7rem;
+    background-color: rosybrown;
+    border: 0px;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/*alineacion del formulario*/
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
